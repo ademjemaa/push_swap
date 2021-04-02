@@ -13,6 +13,7 @@ ARG=\`ruby -e "puts (0..500).to_a.shuffle.join(' ')"\`; ./push_swap $ARG | ./che
 
 
 length of stack and number of operations on average :
+  
   3 == 5 (max 5)
   
   5 == 11 (max 12)
@@ -20,4 +21,3 @@ length of stack and number of operations on average :
   100 == 833 (max 900)
   
   500 == 7900 (max 8500)
-  
