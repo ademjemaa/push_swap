@@ -2,16 +2,16 @@
 sorting stacks for 42
 
 copy paste for testing :
+`
+ARG=\`ruby -e "puts (0..3).to_a.shuffle.join(' ')"\`; ./push_swap $ARG | ./checker -v $ARG 
 
-ARG=`ruby -e "puts (0..3).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker -v $ARG 
+ARG=\`ruby -e "puts (0..5).to_a.shuffle.join(' ')"\`; ./push_swap $ARG | ./checker -v $ARG
 
-ARG=`ruby -e "puts (0..5).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker -v $ARG
+ARG=\`ruby -e "puts (0..100).to_a.shuffle.join(' ')"\`; ./push_swap $ARG | ./checker -v $ARG
 
-ARG=`ruby -e "puts (0..100).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker -v $ARG
+ARG=\`ruby -e "puts (0..500).to_a.shuffle.join(' ')"\`; ./push_swap $ARG | ./checker -v $ARG
 
-ARG=`ruby -e "puts (0..500).to_a.shuffle.join(' ')"`; ./push_swap $ARG | ./checker -v $ARG
-
-
+`
 length of stack and number of operations on average :
   3 == 5 (max 5)
   
