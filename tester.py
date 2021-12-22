@@ -24,6 +24,7 @@ for loop in range (REPEAT):
         arg_str += str(number)
         if (number != arg[stack_size - 1]):
             arg_str += " "
+    print(arg_str)
     try:
         push_swap_output = subprocess.check_output("./push_swap " + arg_str, shell=True)
     except:
